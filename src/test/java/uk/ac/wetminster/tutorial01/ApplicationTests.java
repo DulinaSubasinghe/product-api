@@ -1,4 +1,4 @@
-package uk.ac.westminster.products.api;
+package uk.ac.wetminster.tutorial01;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
