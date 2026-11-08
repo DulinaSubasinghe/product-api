@@ -17,6 +17,14 @@ public class ProductService {
                     0.5, "15cm x 10cm x 5cm"));
     }
 
+    public List<String> getAllSummaries(){
+        List<String> summaries = new ArrayList<>();
+        for(Product product : products) {
+            summaries.add(product.getSummary());
+        }
+        return summaries;
+    }
+
     public List<Product> getAllProducts() {
         return products;
     }
